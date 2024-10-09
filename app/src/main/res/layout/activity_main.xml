@@ -42,48 +42,63 @@
            </TextView>
 
        </LinearLayout>
+
+
        <LinearLayout
            android:id="@+id/overviewContainer"
-           android:orientation="vertical"
-           android:layout_centerInParent="true"
            android:layout_width="match_parent"
-           android:layout_height="wrap_content">
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:orientation="vertical"
+           android:rotationY="0">
+
+           <ImageView
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_gravity="center"
+               android:src="@drawable/sun"
+               app:tint="#FFF">
+
+           </ImageView>
 
            <TextView
                android:id="@+id/status"
-               android:textSize="18sp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
                android:layout_gravity="center"
                android:text="Clear sky"
                android:textColor="@color/white"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content">
+               android:textSize="18sp">
 
            </TextView>
+
            <TextView
                android:id="@+id/temp"
-               android:textSize="90sp"
-               android:fontFamily="sans-serif-thin"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
                android:layout_gravity="center"
+               android:fontFamily="sans-serif-thin"
                android:text="25°C"
                android:textColor="@color/white"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content">
+               android:textSize="90sp">
 
            </TextView>
+
            <LinearLayout
-               android:orientation="horizontal"
-               android:layout_gravity="center"
                android:layout_width="match_parent"
-               android:layout_height="wrap_content">
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:orientation="horizontal">
 
                <TextView
                    android:id="@+id/temp_min"
-                   android:text="Min Temp"
-                   android:textColor="@color/white"
                    android:layout_width="wrap_content"
-                   android:layout_height="wrap_content">
+                   android:layout_height="wrap_content"
+                   android:text="Min Temp"
+                   android:textColor="@color/white">
 
                </TextView>
+
                <Space
                    android:layout_width="50dp"
                    android:layout_height="wrap_content">
@@ -92,11 +107,11 @@
 
                <TextView
                    android:id="@+id/temp_max"
-                   android:text="Max Temp"
-                   android:textColor="@color/white"
-
                    android:layout_width="wrap_content"
-                   android:layout_height="wrap_content">
+                   android:layout_height="wrap_content"
+
+                   android:text="Max Temp"
+                   android:textColor="@color/white">
 
                </TextView>
 
@@ -214,7 +229,7 @@
                    <ImageView
                        android:layout_width="25dp"
                        android:layout_height="25dp"
-                       android:src="@drawable/cloudy"
+                       android:src="@drawable/windy"
                        app:tint="#FFF">
 
                    </ImageView>
@@ -234,7 +249,7 @@
                    <TextView
                        android:id="@+id/Wind"
                        android:textSize="14sp"
-                       android:text="6:30am"
+                       android:text="25 mph"
                        android:textColor="@color/white"
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content">
@@ -270,7 +285,7 @@
                    <ImageView
                        android:layout_width="25dp"
                        android:layout_height="25dp"
-                       android:src="@drawable/cloudy"
+                       android:src="@drawable/pressure"
                        app:tint="#FFF">
 
                    </ImageView>
@@ -314,7 +329,7 @@
                    <ImageView
                        android:layout_width="25dp"
                        android:layout_height="25dp"
-                       android:src="@drawable/cloudy"
+                       android:src="@drawable/humidity"
                        app:tint="#FFF">
 
                    </ImageView>
@@ -358,7 +373,7 @@
                    <ImageView
                        android:layout_width="25dp"
                        android:layout_height="25dp"
-                       android:src="@drawable/cloudy"
+                       android:src="@drawable/sun"
                        app:tint="#FFF">
 
                    </ImageView>
@@ -396,6 +411,22 @@
        </LinearLayout>
 
 </RelativeLayout>
+<ProgressBar
+    android:id="@+id/loader"
+    android:layout_centerInParent="true"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
+</ProgressBar>
+    <TextView
+        android:id="@+id/errortext"
+        android:layout_centerInParent="true"
+        android:textColor="Something Went Wrong"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
 
 </RelativeLayout>
