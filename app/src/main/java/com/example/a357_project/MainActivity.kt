@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
             var response:String?
             try{
                // response = URL("https")
+                //http://api.weatherapi.com/v1
             }
         }
 
