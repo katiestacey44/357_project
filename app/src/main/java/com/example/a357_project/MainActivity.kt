@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             var response:String?
             try{
                response = URL("http://api.weatherapi.com/v1")
-
+//http://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=CITY
             }
         }
 
