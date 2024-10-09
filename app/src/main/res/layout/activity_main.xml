@@ -119,9 +119,23 @@
 
                    <ImageView
                        android:layout_width="25dp"
-                       android:layout_height="25dp">
+                       android:layout_height="25dp"
+                       android:src="@drawable/sun"
+                       app:tint="#FFF">
 
                    </ImageView>
+                   <Space android:layout_height="wrap_content"
+                       android:layout_width="5dp">
+
+                   </Space>
+
+                   <TextView
+                       android:textSize="12sp"
+                       android:text="Sun"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                   </TextView>
 
 
                </LinearLayout>
