@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.widget.TextView
+import java.net.URL
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,8 +33,8 @@ class MainActivity : AppCompatActivity() {
         override fun doInBackground(vararg p0:String?): String{
             var response:String?
             try{
-               // response = URL("https")
-                //http://api.weatherapi.com/v1
+               response = URL("http://api.weatherapi.com/v1")
+
             }
         }
 
