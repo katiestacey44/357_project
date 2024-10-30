@@ -34,7 +34,7 @@ example call : https://api.openweathermap.org/data/2.5/forecast?lat=44.34&lon=10
 api key: 705e67aa2bc71c3365d2506669ffa0d1
  */
 /*
-task 1: connect to API
+task 1: connect to API [X]
 task 2: ensure that API will update screen
 task 3: create search screen
 task 4: make search screen contents and connections to desired other activities
