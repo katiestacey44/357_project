@@ -18,18 +18,7 @@ class MainActivity : AppCompatActivity() {
 }
 
 /*API fields
-https://www.weatherapi.com/my/fields.aspx
-
-Call example:
-cuurent data
-http://api.weatherapi.com/v1/current.json?key=1fc460243bd649d898c163818242810&q=Allendale,MI&aqi=no
-forcast
-http://api.weatherapi.com/v1/forecast.json?key=1fc460243bd649d898c163818242810&q=Allendale,MI&days=6&aqi=no&alerts=no
-search
-http://api.weatherapi.com/v1/search.json?key=1fc460243bd649d898c163818242810&q=Allendale,MI
-sunrise/sunset
-http://api.weatherapi.com/v1/astronomy.json?key=1fc460243bd649d898c163818242810&q=Allendale,MI&dt=2024-10-28
-
+https://www.weatherapi.com/my/fields.asp
 
 WeatherAppAPI Login
 Username: Katiestacey44@gmail.com
@@ -41,6 +30,7 @@ username:Katie44
 email:katiestacey44@gmail.com
 password: 357_Password
 
+example call : https://api.openweathermap.org/data/2.5/forecast?lat=44.34&lon=10.99&appid=705e67aa2bc71c3365d2506669ffa0d1
 api key: 705e67aa2bc71c3365d2506669ffa0d1
  */
 /*
