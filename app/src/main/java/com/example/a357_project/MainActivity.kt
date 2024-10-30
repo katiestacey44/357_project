@@ -31,9 +31,17 @@ sunrise/sunset
 http://api.weatherapi.com/v1/astronomy.json?key=1fc460243bd649d898c163818242810&q=Allendale,MI&dt=2024-10-28
 
 
-WeatherApp Login
+WeatherAppAPI Login
 Username: Katiestacey44@gmail.com
 Password: Project357
+
+open weathermap api
+https://home.openweathermap.org/api_keys
+username:Katie44
+email:katiestacey44@gmail.com
+password: 357_Password
+
+api key: 705e67aa2bc71c3365d2506669ffa0d1
  */
 /*
 task 1: connect to API
